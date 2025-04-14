@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    .center-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .content {
+      background-color: lightgray;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="center-box">
+    <div class="content">I'm centered!</div>
+  </div>
+</body>
+</html>
