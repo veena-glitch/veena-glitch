@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .form-container {
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 300px;
+    }
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+  <form class="form-container">
+    <label>Name:</label>
+    <input type="text" name="name">
+    <label>Email:</label>
+    <input type="email" name="email">
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
